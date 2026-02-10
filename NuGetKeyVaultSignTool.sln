@@ -1,7 +1,7 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29322.22
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11222.15 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NuGetKeyVaultSignTool", "NuGetKeyVaultSignTool\NuGetKeyVaultSignTool.csproj", "{546084DD-64EA-4CBB-A8E2-9E5985BAEF5C}"
 EndProject
@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NuGetKeyVaultSignTool.Core", "NuGetKeyVaultSignTool.Core\NuGetKeyVaultSignTool.Core.csproj", "{A3A203E1-122F-4575-95F4-BED746D98B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGetKeyVaultSignTool.Core.Tests", "NuGetKeyVaultSignTool.Core.Tests\NuGetKeyVaultSignTool.Core.Tests.csproj", "{A84D0EA1-76B0-4D16-BFBF-1CA0306B7B89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{A3A203E1-122F-4575-95F4-BED746D98B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3A203E1-122F-4575-95F4-BED746D98B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3A203E1-122F-4575-95F4-BED746D98B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84D0EA1-76B0-4D16-BFBF-1CA0306B7B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84D0EA1-76B0-4D16-BFBF-1CA0306B7B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84D0EA1-76B0-4D16-BFBF-1CA0306B7B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84D0EA1-76B0-4D16-BFBF-1CA0306B7B89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
